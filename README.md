@@ -1,7 +1,6 @@
 # Hi there, I'm Shivam 👋
 
-Azure-focused cloud engineer with hands-on experience designing, deploying, and managing cloud infrastructure using Infrastructure as Code, automation, and Azure native services. My portfolio demonstrates practical experience across cloud administration, Infrastructure as Code, CI/CD, monitoring, and identity management.
-
+Azure-focused cloud professional with hands-on experience designing, deploying, and managing cloud infrastructure using Infrastructure as Code, automation, and Azure native services
 ---
 
 ## 🎓 Microsoft Certifications
