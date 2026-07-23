@@ -82,7 +82,9 @@ Implemented least-privilege access using Azure RBAC, custom roles, Managed Ident
 
 ## 📫 Connect With Me
 
-- GitHub: https://github.com/ShivamP63
+- **GitHub:** https://github.com/ShivamP63
+- **LinkedIn:** https://www.linkedin.com/in/spande96/
+
 
 ---
 
