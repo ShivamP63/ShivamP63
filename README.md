@@ -54,6 +54,19 @@ My GitHub portfolio showcases production-inspired Azure projects built with Infr
 
 ---
 
+## 🚀 Azure Portfolio
+
+| Domain | Featured Project |
+|---------|------------------|
+| ☁️ Infrastructure | Azure Small Business Foundation |
+| 🌍 Infrastructure as Code | Terraform Azure Infrastructure |
+| 📦 Infrastructure as Code | Azure Bicep Infrastructure |
+| ⚙️ DevOps | GitHub Actions CI/CD |
+| 📊 Data Engineering | Azure Retail Data Pipeline |
+| 🤖 AI Engineering | Azure AI Foundry Ticket Intelligence |
+| 📈 Operations | Azure Monitoring & Incident Response |
+| 🔐 Security | Azure RBAC & Managed Identities |
+
 # 🚀 Azure Portfolio
 
 ### 🏗 Azure Small Business Foundation
