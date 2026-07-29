@@ -68,7 +68,7 @@ My GitHub portfolio showcases production-inspired Azure projects built with Infr
 
 ---
 
-# 🚀 Azure Portfolio
+## 📂 Featured Projects
 
 ### 🏗 Azure Small Business Foundation
 Designed a secure Azure landing zone with networking, virtual machines, storage, Key Vault, backup, monitoring, governance, and cost management.
