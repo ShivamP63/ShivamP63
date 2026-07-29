@@ -13,42 +13,44 @@ Microsoft Certified Azure professional (AZ-900, AZ-104, DP-900) with a software 
 
 ## ☁️ Technical Skills
 
-**Cloud Platforms**
+**Cloud**
+
 - Microsoft Azure
+- Azure Resource Manager
+- Azure AI Foundry
 
-**Infrastructure as Code**
+**Infrastructure**
+
 - Terraform
-- Azure Bicep
+- Bicep
+- Azure Networking
+- RBAC
+- Managed Identity
 
-**DevOps & Automation**
-- GitHub Actions
-- Azure CLI
-- Bash
-- Git
+**Data Engineering**
 
-**Azure Services**
-- Virtual Machines
-- Virtual Networks
-- Network Security Groups
-- Azure Storage
-- Azure Key Vault
-- Azure Monitor
-- Log Analytics
-- Azure RBAC
-- Managed Identities
-- Azure Backup
-- Azure Container Registry
-- Azure Container Apps
-
-**Operating Systems**
-- Linux
-- Windows
-
-**Programming & Scripting**
+- Azure Data Factory
+- Azure SQL Database
+- Azure Blob Storage
 - Python
-- Bash
+- SQL
+- Power BI
 
----
+- AI Engineering
+
+- Azure AI Foundry
+- FastAPI
+- Azure Cosmos DB
+- REST APIs
+- GPT models
+
+**DevOps**
+
+- GitHub Actions
+- Docker
+- Azure Container Apps
+- Azure Container Registry
+- Azure Devops
 
 ## 🚀 Featured Azure Portfolio
 
