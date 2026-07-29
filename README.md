@@ -6,6 +6,20 @@ My GitHub portfolio showcases production-inspired Azure projects built with Infr
 
 ---
 
+## 🚀 Azure Portfolio
+
+| Domain | Featured Project |
+|---------|------------------|
+| ☁️ Infrastructure | Azure Small Business Foundation |
+| 🌍 Infrastructure as Code | Terraform Azure Infrastructure |
+| 📦 Infrastructure as Code | Azure Bicep Infrastructure |
+| 📊 Data Engineering | Azure Retail Data Pipeline |
+| 🤖 AI Engineering | Azure AI Foundry Ticket Intelligence |
+| ⚙️ DevOps | GitHub Actions CI/CD |
+| 📈 Operations | Azure Monitoring & Incident Response |
+| 🔐 Security | Azure RBAC & Managed Identities |
+
+
 ## 🎓 Microsoft Certifications
 
 - ✅ Microsoft Certified: Azure Administrator Associate (AZ-104)
@@ -53,19 +67,6 @@ My GitHub portfolio showcases production-inspired Azure projects built with Infr
 - Azure Container Apps
 
 ---
-
-## 🚀 Azure Portfolio
-
-| Domain | Featured Project |
-|---------|------------------|
-| ☁️ Infrastructure | Azure Small Business Foundation |
-| 🌍 Infrastructure as Code | Terraform Azure Infrastructure |
-| 📦 Infrastructure as Code | Azure Bicep Infrastructure |
-| 📊 Data Engineering | Azure Retail Data Pipeline |
-| 🤖 AI Engineering | Azure AI Foundry Ticket Intelligence |
-| ⚙️ DevOps | GitHub Actions CI/CD |
-| 📈 Operations | Azure Monitoring & Incident Response |
-| 🔐 Security | Azure RBAC & Managed Identities |
 
 # 🚀 Azure Portfolio
 
