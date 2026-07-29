@@ -65,14 +65,14 @@ Provisioned modular Azure infrastructure using Terraform with reusable modules, 
 ### 📦 Azure Bicep Infrastructure
 Built reusable Azure infrastructure using Bicep modules, parameter files, and deployment automation.
 
-### ⚙️ GitHub Actions CI/CD
-Implemented an end-to-end CI/CD pipeline using GitHub Actions, Docker, Azure Container Registry, Bicep, and Azure Container Apps.
-
 ### 📊 Azure Retail Data Pipeline
 Built an end-to-end Azure data engineering pipeline that ingests, transforms, stores, and visualizes retail sales data using Azure Data Factory, Azure SQL Database, Blob Storage, Python, SQL, and Power BI.
 
 ### 🤖 Azure AI Foundry Ticket Intelligence
 Developed an AI-powered ticket classification system using Azure AI Foundry, FastAPI, Azure Cosmos DB, and REST APIs to automatically classify, prioritize, and summarize support tickets.
+
+### ⚙️ GitHub Actions CI/CD
+Implemented an end-to-end CI/CD pipeline using GitHub Actions, Docker, Azure Container Registry, Bicep, and Azure Container Apps.
 
 ### 📈 Azure Monitoring & Incident Response
 Implemented Azure Monitor, Log Analytics, KQL, Action Groups, and operational runbooks for monitoring and incident response.
