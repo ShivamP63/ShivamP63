@@ -1,6 +1,6 @@
 # Hi there, I'm Shivam 👋
 
-Azure-focused cloud professional with hands-on experience designing, deploying, and managing cloud infrastructure using Infrastructure as Code, automation, and Azure native services
+Microsoft Certified Azure professional (AZ-900, AZ-104, DP-900) with a software development background and hands-on experience building Azure infrastructure, CI/CD pipelines, monitoring, RBAC, data engineering pipelines, and Azure AI applications. My GitHub showcases production-style Azure projects covering Infrastructure as Code, DevOps, Security, Data Engineering, and AI Engineering.
 ---
 
 ## 🎓 Microsoft Certifications
