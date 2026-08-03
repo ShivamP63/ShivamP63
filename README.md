@@ -1,26 +1,28 @@
 # Hi there, I'm Shivam 👋
 
-Microsoft Certified Azure professional (AZ-900, AZ-104, DP-900) with a software development background and hands-on experience designing and deploying Azure solutions across **Infrastructure, DevOps, Security, Data Engineering, and AI Engineering**.
+Master of Science in Computer Science graduate with two years of software engineering experience and Microsoft Azure certifications (AZ-104, AZ-900, DP-900). I build production-inspired cloud projects across Cloud Infrastructure, DevOps, Data Engineering, AI Applications, and Enterprise IT Operations.
 
-My GitHub portfolio showcases production-inspired Azure projects built with Infrastructure as Code, CI/CD, Azure Data Services, and Azure AI services, reflecting practical cloud engineering skills from infrastructure provisioning through intelligent applications.
+My portfolio demonstrates practical experience designing, deploying, automating, monitoring, and supporting cloud solutions using Microsoft Azure and modern engineering tools.
 
 ---
 
-## 🚀 Azure Portfolio
+# 🚀 Portfolio
 
 | Domain | Featured Project |
 |---------|------------------|
-| ☁️ Infrastructure | Azure Small Business Foundation |
+| ☁️ Cloud Infrastructure | Azure Small Business Foundation |
 | 🌍 Infrastructure as Code | Terraform Azure Infrastructure |
 | 📦 Infrastructure as Code | Azure Bicep Infrastructure |
-| 📊 Data Engineering | Azure Retail Data Pipeline |
-| 🤖 AI Engineering | Azure AI Foundry Ticket Intelligence |
 | ⚙️ DevOps | GitHub Actions CI/CD |
-| 📈 Operations | Azure Monitoring & Incident Response |
-| 🔐 Security | Azure RBAC & Managed Identities |
+| 📈 Cloud Operations | Azure Monitoring & Incident Response |
+| 🔐 Identity & Security | Azure RBAC & Managed Identities |
+| 📊 Data Engineering | Azure Retail Data Pipeline |
+| 🤖 AI Applications | Azure AI Foundry Ticket Intelligence |
+| 🖥 Enterprise IT Operations | Enterprise IT Operations Simulation |
 
+---
 
-## 🎓 Microsoft Certifications
+# 🎓 Microsoft Certifications
 
 - ✅ Microsoft Certified: Azure Administrator Associate (AZ-104)
 - ✅ Microsoft Certified: Azure Fundamentals (AZ-900)
@@ -28,80 +30,92 @@ My GitHub portfolio showcases production-inspired Azure projects built with Infr
 
 ---
 
-# ☁️ Technical Skills
+# 🛠 Technical Skills
 
-### Cloud
+### Cloud & Infrastructure
 - Microsoft Azure
 - Azure Resource Manager (ARM)
-- Azure AI Foundry
+- Azure Virtual Machines
+- Azure Virtual Network
+- Azure Storage
+- Azure Monitor
+- Azure Log Analytics
 
-### Infrastructure & Security
+### Infrastructure as Code
 - Terraform
-- Bicep
-- Azure Virtual Networks
-- Azure RBAC
-- Managed Identity
-- Azure Key Vault
+- Azure Bicep
+- ARM Templates
 
-### Data Engineering
-- Azure Data Factory
-- Azure SQL Database
-- Azure Blob Storage
-- Azure Cosmos DB
-- SQL
-- Python
-- Power BI
-
-### AI Engineering
-- Azure AI Foundry
-- Azure OpenAI
-- FastAPI
-- REST APIs
-- Prompt Engineering
-
-### DevOps
+### DevOps & Containers
+- Git
 - GitHub Actions
 - Azure DevOps
 - Docker
 - Azure Container Registry
 - Azure Container Apps
 
+### Data Engineering & Analytics
+- Azure Data Factory
+- Azure SQL Database
+- Azure Cosmos DB
+- Azure Blob Storage
+- SQL
+- Python
+- Power BI
+- Microsoft Excel
+
+### AI & Application Development
+- Azure AI Foundry
+- Azure OpenAI
+- FastAPI
+- REST APIs
+
+### Enterprise IT Operations
+- ServiceNow
+- Jira
+- Confluence
+- Postman
+- PowerShell
+
 ---
 
-## 📂 Featured Projects
+# 📂 Featured Projects
 
-### 🏗 Azure Small Business Foundation
+### ☁️ Azure Small Business Foundation
 Designed a secure Azure landing zone with networking, virtual machines, storage, Key Vault, backup, monitoring, governance, and cost management.
 
 ### 🌍 Terraform Azure Infrastructure
-Provisioned modular Azure infrastructure using Terraform with reusable modules, managed identities, Azure Monitor, and Infrastructure as Code best practices.
+Provisioned reusable Azure infrastructure with Terraform modules, monitoring, managed identities, and Infrastructure as Code best practices.
 
 ### 📦 Azure Bicep Infrastructure
-Built reusable Azure infrastructure using Bicep modules, parameter files, and deployment automation.
-
-### 📊 Azure Retail Data Pipeline
-Built an end-to-end Azure data engineering pipeline that ingests, transforms, stores, and visualizes retail sales data using Azure Data Factory, Azure SQL Database, Blob Storage, Python, SQL, and Power BI.
-
-### 🤖 Azure AI Foundry Ticket Intelligence
-Developed an AI-powered ticket classification system using Azure AI Foundry, FastAPI, Azure Cosmos DB, and REST APIs to automatically classify, prioritize, and summarize support tickets.
+Built reusable Azure infrastructure using modular Bicep templates and parameterized deployments.
 
 ### ⚙️ GitHub Actions CI/CD
-Implemented an end-to-end CI/CD pipeline using GitHub Actions, Docker, Azure Container Registry, Bicep, and Azure Container Apps.
+Implemented automated CI/CD pipelines using GitHub Actions, Docker, Azure Container Registry, and Azure Container Apps.
 
 ### 📈 Azure Monitoring & Incident Response
-Implemented Azure Monitor, Log Analytics, KQL, Action Groups, and operational runbooks for monitoring and incident response.
+Implemented Azure Monitor, Log Analytics, KQL, alerts, action groups, and operational runbooks.
 
 ### 🔐 Azure RBAC & Managed Identities
-Implemented least-privilege access using Azure RBAC, custom roles, Managed Identities, Azure Key Vault, and Infrastructure as Code.
+Implemented least-privilege access using Azure RBAC, Managed Identities, Azure Key Vault, and Infrastructure as Code.
+
+### 📊 Azure Retail Data Pipeline
+Built an end-to-end retail analytics solution using Azure Data Factory, Azure SQL Database, Python, SQL, Power BI, and Microsoft Excel.
+
+### 🤖 Azure AI Foundry Ticket Intelligence
+Developed an AI-powered ticket classification application using Azure AI Foundry, Azure OpenAI, FastAPI, Azure Cosmos DB, and REST APIs.
+
+### 🖥 Enterprise IT Operations Simulation
+Simulated enterprise IT support workflows using ServiceNow, Jira, Confluence, Postman, PowerShell, and REST APIs.
 
 ---
 
 # 🌱 Currently Learning
 
-- Amazon Web Services (AWS)
 - Kubernetes
-- Advanced Power BI
-- Retrieval-Augmented Generation (RAG) patterns on Azure AI
+- Amazon Web Services (AWS)
+- Advanced Azure AI patterns
+- Advanced Data Engineering
 
 ---
 
