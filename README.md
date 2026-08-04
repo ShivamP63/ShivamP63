@@ -1,8 +1,8 @@
 # Hi there, I'm Shivam 👋
 
-Master of Science in Computer Science graduate with two years of software engineering experience and Microsoft Azure certifications (AZ-104, AZ-900, DP-900). I build production-inspired cloud projects across Cloud Infrastructure, DevOps, Data Engineering, AI Applications, and Enterprise IT Operations.
+Master of Science in Computer Science graduate with two years of software engineering experience and Microsoft Azure certifications (AZ-104, AZ-900, DP-900). I build production-inspired projects across **Cloud Infrastructure, DevOps, Data Engineering, AI Applications, Enterprise IT Operations, and Backend Development** using Microsoft Azure and modern engineering tools.
 
-My portfolio demonstrates practical experience designing, deploying, automating, monitoring, and supporting cloud solutions using Microsoft Azure and modern engineering tools.
+My portfolio demonstrates practical experience designing, deploying, automating, monitoring, securing, and supporting cloud solutions while building REST APIs, data pipelines, and AI-powered applications.
 
 ---
 
@@ -18,7 +18,7 @@ My portfolio demonstrates practical experience designing, deploying, automating,
 | 🔐 Identity & Security | Azure RBAC & Managed Identities |
 | 📊 Data Engineering | Azure Retail Data Pipeline |
 | 🤖 AI Applications | Azure AI Foundry Ticket Intelligence |
-| 🖥 Enterprise IT Operations | Enterprise IT Operations Simulation |
+| 🖥️ Enterprise IT Operations | Enterprise IT Operations Simulation |
 
 ---
 
@@ -30,9 +30,9 @@ My portfolio demonstrates practical experience designing, deploying, automating,
 
 ---
 
-# 🛠 Technical Skills
+# 🛠️ Technical Skills
 
-### Cloud & Infrastructure
+### ☁️ Cloud & Infrastructure
 - Microsoft Azure
 - Azure Resource Manager (ARM)
 - Azure Virtual Machines
@@ -41,12 +41,12 @@ My portfolio demonstrates practical experience designing, deploying, automating,
 - Azure Monitor
 - Azure Log Analytics
 
-### Infrastructure as Code
+### 🌍 Infrastructure as Code
 - Terraform
 - Azure Bicep
 - ARM Templates
 
-### DevOps & Containers
+### ⚙️ DevOps & Containers
 - Git
 - GitHub Actions
 - Azure DevOps
@@ -54,7 +54,14 @@ My portfolio demonstrates practical experience designing, deploying, automating,
 - Azure Container Registry
 - Azure Container Apps
 
-### Data Engineering & Analytics
+### 💻 Backend Development
+- C#
+- ASP.NET Core Minimal APIs
+- REST APIs
+- Swagger / OpenAPI
+- JSON
+
+### 📊 Data Engineering & Analytics
 - Azure Data Factory
 - Azure SQL Database
 - Azure Cosmos DB
@@ -64,13 +71,13 @@ My portfolio demonstrates practical experience designing, deploying, automating,
 - Power BI
 - Microsoft Excel
 
-### AI & Application Development
+### 🤖 AI & Application Development
 - Azure AI Foundry
 - Azure OpenAI
 - FastAPI
-- REST APIs
+- Prompt Engineering
 
-### Enterprise IT Operations
+### 🖥️ Enterprise IT Operations
 - ServiceNow
 - Jira
 - Confluence
@@ -94,7 +101,7 @@ Built reusable Azure infrastructure using modular Bicep templates and parameteri
 Implemented automated CI/CD pipelines using GitHub Actions, Docker, Azure Container Registry, and Azure Container Apps.
 
 ### 📈 Azure Monitoring & Incident Response
-Implemented Azure Monitor, Log Analytics, KQL, alerts, action groups, and operational runbooks.
+Implemented Azure Monitor, Log Analytics, KQL, alerts, action groups, dashboards, and operational runbooks.
 
 ### 🔐 Azure RBAC & Managed Identities
 Implemented least-privilege access using Azure RBAC, Managed Identities, Azure Key Vault, and Infrastructure as Code.
@@ -105,8 +112,8 @@ Built an end-to-end retail analytics solution using Azure Data Factory, Azure SQ
 ### 🤖 Azure AI Foundry Ticket Intelligence
 Developed an AI-powered ticket classification application using Azure AI Foundry, Azure OpenAI, FastAPI, Azure Cosmos DB, and REST APIs.
 
-### 🖥 Enterprise IT Operations Simulation
-Simulated enterprise IT support workflows using ServiceNow, Jira, Confluence, Postman, PowerShell, and REST APIs.
+### 🖥️ Enterprise IT Operations Simulation
+Simulated enterprise IT support workflows using **ServiceNow, Jira, Confluence, PowerShell, Postman, and a C# ASP.NET Core Minimal API** with REST endpoints, Swagger/OpenAPI documentation, and incident management workflows.
 
 ---
 
@@ -114,8 +121,9 @@ Simulated enterprise IT support workflows using ServiceNow, Jira, Confluence, Po
 
 - Kubernetes
 - Amazon Web Services (AWS)
-- Advanced Azure AI patterns
+- Advanced Azure AI
 - Advanced Data Engineering
+- ASP.NET Core
 
 ---
 
