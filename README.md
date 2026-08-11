@@ -113,7 +113,7 @@ Built an end-to-end retail analytics solution using Azure Data Factory, Azure SQ
 Developed an AI-powered ticket classification application using Azure AI Foundry, Azure OpenAI, FastAPI, Azure Cosmos DB, and REST APIs.
 
 ### 🖥️ Enterprise IT Operations Simulation
-Simulated enterprise IT support workflows using **ServiceNow, Jira, Confluence, PowerShell, Postman, and a C# ASP.NET Core Minimal API** with REST endpoints, Swagger/OpenAPI documentation, and incident management workflows.
+Simulated enterprise IT support workflows using ServiceNow, Jira, Confluence, PowerShell, Postman, and a C# ASP.NET Core Minimal API with REST endpoints, Swagger/OpenAPI documentation, and incident management workflows.
 
 ---
 
