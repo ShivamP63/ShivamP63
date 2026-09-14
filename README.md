@@ -1,10 +1,3 @@
-# Hi there, I'm Shivam 👋
-
-Master of Science in Computer Science graduate with two years of software engineering experience and Microsoft Azure certifications (AZ-104, AZ-900, DP-900). I build production-inspired projects across **Cloud Infrastructure, DevOps, Data Engineering, AI Applications, Enterprise IT Operations, and Backend Development** using Microsoft Azure and modern engineering tools.
-
-My portfolio demonstrates practical experience designing, deploying, automating, monitoring, securing, and supporting cloud solutions while building REST APIs, data pipelines, and AI-powered applications.
-
----
 
 # 🚀 Portfolio
 
@@ -117,21 +110,3 @@ Simulated enterprise IT support workflows using ServiceNow, Jira, Confluence, Po
 
 ---
 
-# 🌱 Currently Learning
-
-- Kubernetes
-- Amazon Web Services (AWS)
-- Advanced Azure AI
-- Advanced Data Engineering
-- ASP.NET Core
-
----
-
-# 📫 Connect With Me
-
-- **GitHub:** https://github.com/ShivamP63
-- **LinkedIn:** https://www.linkedin.com/in/spande96/
-
----
-
-⭐ Thanks for visiting my profile!
