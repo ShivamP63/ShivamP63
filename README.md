@@ -12,8 +12,8 @@ These are **active, in-progress projects**, not finished products. Sprint 1 sour
 
 | Project | Technologies | Current scope and direction |
 |---|---|---|
-| **[Enterprise Workflow Management Platform](https://github.com/ShivamP63/enterprise-workflow-platform)** | Java 21, Spring Boot, React, TypeScript, PostgreSQL, Flyway | Team project/task management. Sprint 1 source covers the application foundation; authentication, collaboration, automated quality gates, and deployment are subsequent milestones. |
 | **[Intelligent Document Processing & AI Search Platform](https://github.com/ShivamP63/intelligent-document-ai-platform)** | Python, FastAPI, React, TypeScript, PostgreSQL, SQLAlchemy | Document upload and text extraction foundation. ML-based classification, semantic search, and citation-backed RAG Q&A are planned for later milestones. |
+| **[Enterprise Workflow Management Platform](https://github.com/ShivamP63/enterprise-workflow-platform)** | Java 21, Spring Boot, React, TypeScript, PostgreSQL, Flyway | Team project/task management. Sprint 1 source covers the application foundation; authentication, collaboration, automated quality gates, and deployment are subsequent milestones. |
 
 ## 💼 Selected completed projects
 
