@@ -1,0 +1,341 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0a0d11">
+  <meta name="description" content="Shivam Pande — software engineer focused on Python backend development, React and TypeScript, full-stack applications, and practical AI integrations.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Shivam Pande | Software Engineer">
+  <meta property="og:description" content="Software engineer building thoughtful full-stack experiences, dependable Python APIs, and practical AI-powered applications.">
+  <title>Shivam Pande — Software Engineer</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='15' fill='%230c1114'/%3E%3Ctext x='32' y='44' text-anchor='middle' font-family='Arial,sans-serif' font-size='32' font-weight='800' fill='%23c4f277'%3ESP%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{color-scheme:dark;--bg:#0a0d11;--surface:#11161b;--surface2:#171e24;--line:#283037;--text:#f4f6ef;--muted:#a4b0b1;--green:#c4f277;--lilac:#b2adff;--max:1170px}
+    *,*::before,*::after{box-sizing:border-box}
+    html{scroll-behavior:smooth;scroll-padding-top:92px}
+    body{margin:0;background:var(--bg);color:var(--text);font-family:"DM Sans",sans-serif;-webkit-font-smoothing:antialiased}
+    body::before{content:"";position:absolute;z-index:-1;left:35%;top:0;width:65%;height:750px;pointer-events:none;background:radial-gradient(ellipse at top right,rgba(78,103,84,.17),transparent 62%)}
+    a{color:inherit;text-decoration:none}a:hover{color:var(--green)}
+    button{font:inherit}::selection{background:var(--green);color:#0b0f10}
+    .skip-link{position:absolute;left:12px;top:-80px;background:var(--green);color:#111;padding:12px;z-index:99}.skip-link:focus{top:12px}
+    .container{width:min(var(--max),calc(100% - 64px));margin:auto}
+    .site-header{position:sticky;top:0;z-index:60;background:rgba(10,13,17,.84);backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px);border-bottom:1px solid rgba(255,255,255,.07)}
+    .nav{display:flex;align-items:center;justify-content:space-between;min-height:78px;gap:25px}
+    .wordmark{display:flex;align-items:center;gap:12px;font-family:"Space Grotesk",sans-serif;font-size:18px;font-weight:700;letter-spacing:-.06em}
+    .mark{display:inline-grid;place-items:center;width:38px;height:38px;background:var(--green);color:#141a15;border-radius:11px;font-size:14px;letter-spacing:-.06em}
+    .nav-links{display:flex;align-items:center;gap:30px;color:#c4cccb;font-size:13px;font-weight:700;letter-spacing:.015em}
+    .nav-links a:not(.nav-cta){transition:color .2s}.nav-cta{border:1px solid #536746;border-radius:999px;padding:11px 18px;color:var(--green);white-space:nowrap}
+    .nav-cta:hover{background:var(--green);color:#0a0d11}
+    .menu-button{display:none;color:var(--text);background:transparent;border:1px solid var(--line);border-radius:9px;width:42px;height:42px;align-items:center;justify-content:center;font-size:23px;cursor:pointer}
+    .hero{display:grid;grid-template-columns:1.09fr .91fr;gap:50px;padding:117px 0 100px;align-items:center}
+    .eyebrow,.kicker,.section-label,.meta-label,.overline{font-size:11px;letter-spacing:.2em;text-transform:uppercase;font-weight:700}
+    .eyebrow{display:flex;align-items:center;gap:12px;color:var(--green);margin:0 0 26px}
+    .pulse{width:8px;height:8px;background:var(--green);border-radius:50%;box-shadow:0 0 0 5px rgba(196,242,119,.11)}
+    h1,h2,h3,h4,p{margin-top:0}
+    h1,h2,h3,.display-font{font-family:"Space Grotesk",sans-serif}
+    h1{font-size:clamp(58px,6.4vw,92px);line-height:1.02;letter-spacing:-.073em;font-weight:700;margin:0 0 26px}
+    .hero-accent{display:block;color:var(--green)}
+    .hero-intro{color:#b5bfbe;font-size:18px;line-height:1.8;max-width:545px;margin-bottom:35px}
+    .hero-intro strong{color:var(--text);font-weight:600}
+    .hero-actions{display:flex;align-items:center;gap:13px;flex-wrap:wrap;margin-bottom:50px}
+    .button{display:inline-flex;align-items:center;justify-content:center;gap:13px;min-height:49px;padding:0 21px;border:1px solid var(--line);border-radius:12px;font-size:13px;font-weight:700;transition:transform .2s,background .2s,color .2s,border-color .2s}
+    .button:hover{transform:translateY(-2px)}
+    .button-primary{background:var(--green);color:#111814;border-color:var(--green)}
+    .button-primary:hover{background:#e1ffac;color:#111814}
+    .button-secondary{background:#151b20;color:var(--text)}
+    .button-secondary:hover{border-color:#708082;color:var(--text)}
+    .button svg{width:16px;height:16px}
+    .hero-trail{display:flex;align-items:center;gap:23px;flex-wrap:wrap}
+    .trail-item{display:flex;align-items:center;gap:10px;color:#97a3a2;font-size:12px}
+    .trail-item:before{content:"";width:5px;height:5px;border-radius:50%;background:var(--lilac)}
+    .hero-art{position:relative;min-height:480px;display:flex;align-items:center}
+    .visual-glow{position:absolute;inset:45px 9px 50px;background:radial-gradient(ellipse,rgba(196,242,119,.11),transparent 65%);filter:blur(20px)}
+    .visual-panel{position:relative;width:100%;min-height:432px;padding:23px;background:linear-gradient(140deg,#1c2529,#10171c 70%);border:1px solid #374448;border-radius:21px;box-shadow:0 35px 100px #0007, inset 0 1px 0 #ffffff12;overflow:hidden}
+    .panel-top{display:flex;align-items:center;justify-content:space-between;padding-bottom:21px;border-bottom:1px solid #334044}
+    .panel-dots{display:flex;gap:6px}.panel-dots i{width:8px;height:8px;display:block;border-radius:50%;background:#48535a}.panel-dots i:first-child{background:#c1f57e}
+    .panel-path{font:500 11px "Space Grotesk",sans-serif;color:#8fa1a3;letter-spacing:.07em}
+    .panel-main{padding:38px 12px 22px}
+    .terminal-comment{color:#728988;font:500 12px "Space Grotesk",sans-serif;margin:0 0 20px}
+    .panel-heading{font:700 clamp(28px,3vw,39px)/1.2 "Space Grotesk",sans-serif;letter-spacing:-.05em;margin:0 0 13px}
+    .panel-heading span{color:var(--green)}
+    .panel-copy{font-size:13px;color:#9eb0af;max-width:285px;line-height:1.8}
+    .layer-stack{display:grid;grid-template-columns:repeat(3,1fr);gap:9px;margin-top:41px}
+    .layer{padding:15px 12px 17px;background:#141d21;border:1px solid #344149;border-radius:10px;min-height:104px}
+    .layer-number{color:var(--green);font:600 11px "Space Grotesk";margin-bottom:17px}
+    .layer strong{font:700 14px "Space Grotesk",sans-serif;display:block;letter-spacing:-.025em}
+    .layer small{font-size:10px;color:#9eafad;display:block;margin-top:7px}
+    .panel-bottom{display:flex;justify-content:space-between;align-items:center;border-top:1px solid #304044;margin-top:18px;padding-top:18px;font:600 10px "Space Grotesk",sans-serif;letter-spacing:.12em;color:#7f9694}
+    .panel-bottom b{color:var(--green)}
+    .floating-tag{position:absolute;right:-20px;bottom:43px;padding:14px 18px;border-radius:12px;background:#c4f277;color:#151b15;box-shadow:0 13px 40px #0008;font:700 12px "Space Grotesk";transform:rotate(-5deg)}
+    .floating-tag span{display:block;font-weight:500;opacity:.75;font-size:10px;margin-bottom:4px;letter-spacing:.12em}
+    section{padding:95px 0}
+    .section-header{display:flex;justify-content:space-between;align-items:end;gap:35px;margin-bottom:34px}
+    .section-label{color:var(--green);margin-bottom:16px}
+    h2{font-size:clamp(39px,5vw,59px);letter-spacing:-.065em;line-height:1.14;margin-bottom:0}
+    .section-note{font-size:14px;color:#9daaa9;line-height:1.8;max-width:340px;margin:0}
+    .soft-rule{border:0;border-top:1px solid #263037;margin:0}
+    .project-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:17px}
+    .project{background:linear-gradient(150deg,#161d21,#10161b);border:1px solid var(--line);border-radius:17px;padding:26px;display:flex;flex-direction:column;min-width:0;transition:transform .25s,border-color .25s}
+    .project:hover{transform:translateY(-4px);border-color:#56715a}
+    .project .project-visual{height:176px;border-radius:10px;border:1px solid #2c3a3c;margin-bottom:26px;position:relative;overflow:hidden;padding:18px;display:flex;align-items:end}
+    .visual-ai{background:radial-gradient(ellipse at 70% 40%,#34484c 0,transparent 53%),linear-gradient(130deg,#203139,#111e24)}
+    .visual-java{background:radial-gradient(ellipse at 80% 20%,#364c3b 0,transparent 50%),linear-gradient(130deg,#24332c,#152019)}
+    .visual-api{background:radial-gradient(ellipse at 75% 20%,#46405c 0,transparent 55%),linear-gradient(130deg,#26283c,#171d2e)}
+    .visual-cicd{background:radial-gradient(ellipse at 75% 20%,#37485b 0,transparent 55%),linear-gradient(130deg,#1b2f3b,#11202b)}
+    .visual-dotnet{background:radial-gradient(ellipse at 75% 20%,#49405b 0,transparent 55%),linear-gradient(130deg,#2c263e,#1b182c)}
+    .visual-top{position:absolute;top:17px;left:18px;right:18px;display:flex;justify-content:space-between;color:#b9c9c4;font:600 10px "Space Grotesk",sans-serif;letter-spacing:.13em;text-transform:uppercase}
+    .visual-number{position:absolute;right:12px;bottom:-29px;font:700 135px "Space Grotesk",sans-serif;letter-spacing:-.12em;line-height:1;color:#ffffff0b}
+    .visual-title{font:700 clamp(21px,2.5vw,29px)/1.03 "Space Grotesk",sans-serif;letter-spacing:-.06em;z-index:1;max-width:315px;text-shadow:0 2px 20px #0005}
+    .project-tags{display:flex;gap:7px;flex-wrap:wrap;margin:15px 0 0}
+    .tag{padding:7px 9px;border:1px solid #35403d;border-radius:6px;font-size:10px;letter-spacing:.02em;color:#c4ceca}
+    .project-top{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:11px}
+    .project-state{font:700 10px "Space Grotesk";letter-spacing:.13em;text-transform:uppercase;color:#9bc8ae}
+    .project-state.wip{color:#e1d29a}
+    .project h3{font-size:24px;line-height:1.18;letter-spacing:-.05em;margin:0 0 11px}
+    .project p{font-size:13px;line-height:1.8;color:#a8b7b4;margin:0}
+    .project small.note{display:block;margin-top:12px;color:#889d9c;font-size:11px;line-height:1.6}
+    .project-bottom{margin-top:auto;padding-top:24px}
+    .project-link{color:var(--green);font-weight:700;font-size:12px;display:inline-flex;gap:8px;align-items:center}
+    .project-link span{font-size:17px}
+    .project.featured{border-color:#45594a}
+    .project.featured .project-visual{height:191px}
+    .project-small-grid{margin-top:17px;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:17px}
+    .project.small .project-visual{height:132px}
+    .project.small .visual-title{font-size:22px}
+    .project.small h3{font-size:20px}
+    .project.small{padding:20px}
+    .project.small .project-visual{margin-bottom:18px}
+    .project.small p{font-size:12px}
+    .stats{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:27px 0}
+    .stat{padding-left:20px;border-left:1px solid var(--line)}
+    .stat:first-child{padding-left:0;border-left:0}
+    .stat strong{display:block;font:700 32px "Space Grotesk",sans-serif;letter-spacing:-.05em}
+    .stat strong span{color:var(--green)}
+    .stat small{display:block;margin-top:7px;font-size:12px;color:#96a3a1}
+    .about-grid{display:grid;grid-template-columns:.88fr 1.12fr;gap:90px}
+    .about-copy{color:#b2bdbb;line-height:1.9;font-size:16px}
+    .about-copy strong{color:var(--text)}
+    .timeline{border-left:1px solid #405247;margin-left:5px;padding-left:29px}
+    .timeline-item{position:relative;padding-bottom:37px}
+    .timeline-item:last-child{padding-bottom:0}
+    .timeline-item:before{content:"";position:absolute;top:4px;left:-35px;width:11px;height:11px;background:var(--green);border:3px solid var(--bg);box-shadow:0 0 0 1px var(--green);border-radius:50%}
+    .timeline-date{font:600 11px "Space Grotesk";letter-spacing:.14em;color:var(--green);text-transform:uppercase}
+    .timeline h3{font-size:21px;letter-spacing:-.04em;margin:11px 0 5px}
+    .timeline .sub{font-size:13px;color:#9fb1ae;margin-bottom:13px}
+    .timeline p{font-size:13px;line-height:1.85;color:#abb5b2}
+    .toolkit{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:15px}
+    .toolkit-card{padding:26px;border-radius:15px;border:1px solid var(--line);background:#11171b}
+    .toolkit-card .tool-index{color:var(--green);font:700 11px "Space Grotesk",sans-serif;letter-spacing:.14em}
+    .toolkit-card h3{font-size:21px;letter-spacing:-.05em;margin:16px 0 14px}
+    .toolkit-card p{font-size:13px;color:#a8b6b2;line-height:1.95;margin:0}
+    .credentials{display:grid;grid-template-columns:1fr 1fr;gap:17px}
+    .credential{border:1px solid var(--line);border-radius:12px;padding:22px 23px;background:#12191c;display:flex;align-items:center;justify-content:space-between;gap:25px;min-height:100px}
+    .credential .cert-icon{font:700 11px "Space Grotesk";display:inline-grid;place-items:center;width:39px;height:39px;border-radius:8px;background:#203843;color:#9fdcff;margin-right:14px;flex-shrink:0}
+    .credential-body{flex:1}
+    .credential-body strong{font-size:14px;line-height:1.4;display:block}
+    .credential-body small{font-size:11px;color:#97aaa7;display:block;margin-top:8px}
+    .credential .arrow{font-size:19px;color:var(--green)}
+    .education{margin-top:21px;color:#98a9a6;font-size:13px;line-height:1.85}
+    .contact-section{padding:100px 0 105px}
+    .contact-box{padding:75px 65px;background:radial-gradient(ellipse at top right,#283e33 0,transparent 55%),linear-gradient(145deg,#1d2b26,#131d1a);border:1px solid #52694c;border-radius:24px;position:relative;overflow:hidden}
+    .contact-box h2{font-size:clamp(40px,5.5vw,67px);max-width:770px;margin-bottom:18px}
+    .contact-box p{font-size:15px;color:#b5c7b9;line-height:1.85;max-width:520px;margin-bottom:30px}
+    .contact-box .section-label{color:#c4f277}
+    footer{border-top:1px solid var(--line);padding:32px 0 38px}
+    .footer-inner{display:flex;justify-content:space-between;gap:20px;align-items:center;color:#879a96;font-size:11px}
+    .footer-links{display:flex;gap:23px;font-size:12px}
+    :focus-visible{outline:2px solid var(--green);outline-offset:4px}
+    .reveal{opacity:0;transform:translateY(18px);transition:opacity .55s,transform .55s}
+    .reveal.visible{opacity:1;transform:none}
+    @media(max-width:960px){.hero{grid-template-columns:1fr;padding-top:85px}.hero-art{min-height:380px;max-width:630px}.visual-panel{min-height:380px}.about-grid{gap:42px}.project-small-grid{grid-template-columns:repeat(2,1fr)}}
+    @media(max-width:680px){.container{width:min(100% - 36px,1170px)}.nav{min-height:68px}.menu-button{display:flex}.nav-links{display:none;position:absolute;top:68px;left:0;right:0;flex-direction:column;align-items:stretch;gap:0;padding:12px 18px 22px;background:#10161b;border-bottom:1px solid var(--line)}.nav-links.open{display:flex}.nav-links a{padding:14px 6px}.nav-cta{text-align:center;margin-top:8px}.hero{padding:70px 0 65px;gap:22px}h1{font-size:clamp(55px,13vw,81px)}.hero-intro{font-size:16px}.hero-trail{gap:12px}.hero-art{min-height:330px}.visual-panel{min-height:340px;padding:17px}.panel-main{padding:24px 3px 12px}.panel-heading{font-size:31px}.layer-stack{margin-top:27px;gap:5px}.layer{padding:11px 6px;min-height:95px}.layer strong{font-size:12px}.layer small{font-size:9px}.floating-tag{right:0;bottom:20px}.section-header{display:block}.section-note{margin-top:16px}.project-grid,.project-small-grid,.about-grid,.toolkit,.credentials{grid-template-columns:1fr}.project .project-visual{height:155px}.project.featured .project-visual{height:175px}section{padding:69px 0}.stats{gap:8px}.stat{padding-left:9px}.stat strong{font-size:25px}.stat small{font-size:10px}.contact-section{padding:70px 0}.contact-box{padding:48px 26px}.footer-inner{align-items:flex-start;flex-direction:column}.footer-links{flex-wrap:wrap}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.reveal{opacity:1;transform:none;transition:none}.button,.project{transition:none}}
+  </style>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="container nav" aria-label="Main navigation">
+      <a class="wordmark" href="#top" aria-label="Shivam Pande — back to top"><span class="mark">SP</span><span>shivam.pande</span></a>
+      <button class="menu-button" type="button" id="menuButton" aria-controls="navLinks" aria-expanded="false" aria-label="Toggle menu">☰</button>
+      <div class="nav-links" id="navLinks">
+        <a href="#projects">Projects</a><a href="#about">About</a><a href="#skills">Expertise</a><a href="#credentials">Credentials</a>
+        <a class="nav-cta" href="mailto:shivampande327@gmail.com?subject=Let's%20connect">Let's talk ↗</a>
+      </div>
+    </nav>
+  </header>
+  <main id="main">
+    <div id="top" class="container hero">
+      <div>
+        <p class="eyebrow"><span class="pulse" aria-hidden="true"></span> Software Engineer · Ontario, Canada</p>
+        <h1>Building useful<br><span class="hero-accent">software.</span></h1>
+        <p class="hero-intro">Hi, I'm <strong>Shivam</strong> — a software engineer working across <strong>Python backends, React interfaces, REST APIs, and AI integrations.</strong> I care about creating products that feel simple to use and are thoughtfully engineered underneath.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">Explore my work <span aria-hidden="true">↗</span></a>
+          <a class="button button-secondary" href="https://www.linkedin.com/in/spande443/" target="_blank" rel="noopener noreferrer">Connect on LinkedIn <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="hero-trail" aria-label="Key focus areas">
+          <span class="trail-item">Full-stack development</span><span class="trail-item">Backend engineering</span><span class="trail-item">Practical AI</span>
+        </div>
+      </div>
+      <div class="hero-art" aria-label="Illustration of frontend, API, and data layers">
+        <div class="visual-glow"></div>
+        <div class="visual-panel">
+          <div class="panel-top"><span class="panel-dots"><i></i><i></i><i></i></span><span class="panel-path">/ engineering / approach</span></div>
+          <div class="panel-main">
+            <p class="terminal-comment">// Making complex things usable</p>
+            <p class="panel-heading">Design. <span>Build.</span><br>Improve.</p>
+            <p class="panel-copy">From UI interactions to service boundaries, each layer contributes to a better product.</p>
+            <div class="layer-stack">
+              <div class="layer"><div class="layer-number">01 / UI</div><strong>Frontend</strong><small>React + TypeScript</small></div>
+              <div class="layer"><div class="layer-number">02 / API</div><strong>Backend</strong><small>Python + Flask/FastAPI</small></div>
+              <div class="layer"><div class="layer-number">03 / DATA</div><strong>Persistence</strong><small>SQL + Cosmos DB</small></div>
+            </div>
+          </div>
+          <div class="panel-bottom"><span>BUILD WITH INTENT</span><span>STATUS: <b>LEARNING & SHIPPING</b></span></div>
+        </div>
+        <div class="floating-tag"><span>FOCUS / 2026</span>FULL-STACK + AI ↗</div>
+      </div>
+    </div>
+    <div class="container stats" aria-label="At a glance">
+      <div class="stat"><strong>~2<span> yrs</span></strong><small>Professional software experience</small></div>
+      <div class="stat"><strong>3<span>+</span></strong><small>Selected completed API & cloud projects</small></div>
+      <div class="stat"><strong>02</strong><small>Full-stack products in development</small></div>
+    </div>
+    <section id="projects" class="container">
+      <div class="section-header reveal">
+        <div><p class="section-label">01 / Selected work</p><h2>Things I'm building<br>and have built.</h2></div>
+        <p class="section-note">A mix of hands-on backend engineering, connected frontend experiences, and applied AI. In-progress work is labelled separately from completed projects.</p>
+      </div>
+      <div class="project-grid">
+        <article class="project featured reveal">
+          <div class="project-visual visual-ai"><div class="visual-top"><span>Python / AI</span><span>In development</span></div><span class="visual-number">01</span><div class="visual-title">Documents.<br>Intelligence.<br>Search.</div></div>
+          <div class="project-top"><span class="project-state wip">● In development</span><span class="meta-label" style="color:#6e9189">FEATURED 01</span></div>
+          <h3>Intelligent Document Processing & AI Search</h3>
+          <p>A Python/FastAPI and React/TypeScript platform for text-PDF ingestion and document organization, with evaluated ML classification, semantic search, and citation-grounded Q&A on the roadmap.</p>
+          <small class="note">Sprint 1 source is committed; local end-to-end database verification is pending. ML search and RAG features are planned, not released.</small>
+          <div class="project-tags"><span class="tag">Python</span><span class="tag">FastAPI</span><span class="tag">React</span><span class="tag">TypeScript</span><span class="tag">PostgreSQL</span></div>
+          <div class="project-bottom"><a class="project-link" href="https://github.com/ShivamP63/intelligent-document-ai-platform" target="_blank" rel="noopener noreferrer">View source and roadmap <span aria-hidden="true">↗</span></a></div>
+        </article>
+        <article class="project featured reveal">
+          <div class="project-visual visual-java"><div class="visual-top"><span>Java / Full-stack</span><span>In development</span></div><span class="visual-number">02</span><div class="visual-title">Better team<br>workflows.</div></div>
+          <div class="project-top"><span class="project-state wip">● In development</span><span class="meta-label" style="color:#6e9189">FEATURED 02</span></div>
+          <h3>Enterprise Workflow Management Platform</h3>
+          <p>A business workflow application for projects and tasks using Spring Boot, REST APIs, PostgreSQL, and a React interface. Designed to evolve toward team roles, collaboration, and reliable delivery practices.</p>
+          <small class="note">Sprint 1 source is committed; local end-to-end database verification is pending. Authentication and collaboration are planned milestones.</small>
+          <div class="project-tags"><span class="tag">Java 21</span><span class="tag">Spring Boot</span><span class="tag">React</span><span class="tag">TypeScript</span><span class="tag">PostgreSQL</span></div>
+          <div class="project-bottom"><a class="project-link" href="https://github.com/ShivamP63/enterprise-workflow-platform" target="_blank" rel="noopener noreferrer">View source and roadmap <span aria-hidden="true">↗</span></a></div>
+        </article>
+      </div>
+      <div class="project-small-grid">
+        <article class="project small reveal">
+          <div class="project-visual visual-api"><div class="visual-top"><span>Python / AI integration</span><span>Complete</span></div><span class="visual-number">03</span><div class="visual-title">Ticket<br>intelligence.</div></div>
+          <div class="project-top"><span class="project-state">✓ Completed</span></div><h3>AI Ticket Intelligence API</h3>
+          <p>FastAPI service with Azure OpenAI ticket classification, structured Pydantic responses, Cosmos DB persistence, error handling, and mocked pytest tests.</p>
+          <div class="project-tags"><span class="tag">FastAPI</span><span class="tag">Azure OpenAI</span><span class="tag">Cosmos DB</span></div>
+          <div class="project-bottom"><a class="project-link" href="https://github.com/ShivamP63/azure-ai-foundry-ticket-intelligence" target="_blank" rel="noopener noreferrer">Explore repository <span aria-hidden="true">↗</span></a></div>
+        </article>
+        <article class="project small reveal">
+          <div class="project-visual visual-cicd"><div class="visual-top"><span>Python / Delivery</span><span>Complete</span></div><span class="visual-number">04</span><div class="visual-title">Build.<br>Test. Deploy.</div></div>
+          <div class="project-top"><span class="project-state">✓ Completed</span></div><h3>Containerized Python API & CI/CD</h3>
+          <p>Flask service with automated pytest checks, Docker image builds, GitHub Actions, Azure Container Apps deployment, and smoke tests.</p>
+          <div class="project-tags"><span class="tag">Flask</span><span class="tag">Docker</span><span class="tag">GitHub Actions</span></div>
+          <div class="project-bottom"><a class="project-link" href="https://github.com/ShivamP63/azure-github-actions-cicd" target="_blank" rel="noopener noreferrer">Explore repository <span aria-hidden="true">↗</span></a></div>
+        </article>
+        <article class="project small reveal">
+          <div class="project-visual visual-dotnet"><div class="visual-top"><span>C# / REST APIs</span><span>Complete</span></div><span class="visual-number">05</span><div class="visual-title">Incident<br>management.</div></div>
+          <div class="project-top"><span class="project-state">✓ Completed</span></div><h3>Enterprise Incident Management API</h3>
+          <p>ASP.NET Core Minimal API featuring incident CRUD endpoints and Swagger docs, alongside a documented enterprise support simulation.</p>
+          <div class="project-tags"><span class="tag">C#</span><span class="tag">ASP.NET Core</span><span class="tag">Postman</span></div>
+          <div class="project-bottom"><a class="project-link" href="https://github.com/ShivamP63/enterprise-it-operations-simulation" target="_blank" rel="noopener noreferrer">Explore repository <span aria-hidden="true">↗</span></a></div>
+        </article>
+      </div>
+    </section>
+    <hr class="soft-rule">
+    <section id="about" class="container">
+      <div class="section-header reveal"><div><p class="section-label">02 / My background</p><h2>Engineering with<br>a product mindset.</h2></div></div>
+      <div class="about-grid">
+        <div class="about-copy reveal">
+          <p>I bring <strong>nearly two years of professional software engineering experience</strong> from Bacancy Technology, where I worked on web applications for healthcare clients.</p>
+          <p>I enjoy the details behind reliable software: clear APIs, predictable validation, responsive interfaces, thoughtful error handling, and tests that make change safer.</p>
+          <p>My recent portfolio work explores <strong>Python/FastAPI, React/TypeScript, Java/Spring Boot, cloud workflows, and applied AI</strong> through documented, incremental builds.</p>
+          <a class="project-link" href="https://www.linkedin.com/in/spande443/" target="_blank" rel="noopener noreferrer">More on LinkedIn <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="timeline reveal">
+          <div class="timeline-item">
+            <span class="timeline-date">July 2019 — May 2021</span>
+            <h3>Software Engineer</h3><p class="sub">Bacancy Technology · Healthcare software</p>
+            <p>Worked on React/Redux patient intake forms and staff dashboards, Python/Flask REST APIs with MySQL-backed workflows, API validation and regression testing. Collaborated with developers, QA, and client stakeholders to deliver improvements and resolve defects.</p>
+          </div>
+          <div class="timeline-item">
+            <span class="timeline-date">September 2021 — May 2023</span>
+            <h3>Master of Science · Computer Science</h3><p class="sub">Lakehead University · Ontario, Canada</p>
+            <p>Graduate study in computer science, complementing my engineering background and hands-on application development.</p>
+          </div>
+          <div class="timeline-item">
+            <span class="timeline-date">2015 — 2019</span>
+            <h3>Bachelor of Engineering · Information Technology</h3><p class="sub">LDRP Institute of Technology and Research · India</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr class="soft-rule">
+    <section id="skills" class="container">
+      <div class="section-header reveal"><div><p class="section-label">03 / Technical toolkit</p><h2>Across the stack.</h2></div><p class="section-note">Tools and technologies from professional work, hands-on projects, and ongoing learning.</p></div>
+      <div class="toolkit">
+        <div class="toolkit-card reveal"><div class="tool-index">01 / SERVER SIDE</div><h3>Backend & APIs</h3><p>Python · Flask · FastAPI · Pydantic · REST API design · Java · Spring Boot · ASP.NET Core · OpenAPI</p></div>
+        <div class="toolkit-card reveal"><div class="tool-index">02 / USER EXPERIENCE</div><h3>Frontend engineering</h3><p>React · TypeScript · JavaScript · Redux · HTML5 · CSS3 · Responsive design · UI integration</p></div>
+        <div class="toolkit-card reveal"><div class="tool-index">03 / DATA & QUALITY</div><h3>Data, security & testing</h3><p>SQL · PostgreSQL · MySQL · Cosmos DB · MongoDB · pytest · Postman · Jest · JWT & OAuth concepts</p></div>
+        <div class="toolkit-card reveal"><div class="tool-index">04 / DELIVERY & AI</div><h3>Cloud, DevOps & AI</h3><p>Azure · AWS fundamentals · Docker · GitHub Actions · CI/CD · Linux · Azure OpenAI · LLM API integration</p></div>
+      </div>
+    </section>
+    <hr class="soft-rule">
+    <section id="credentials" class="container">
+      <div class="section-header reveal"><div><p class="section-label">04 / Credentials</p><h2>Always learning.</h2></div><p class="section-note">Industry certifications alongside a master's degree in computer science.</p></div>
+      <div class="credentials">
+        <a class="credential reveal" href="https://lnkd.in/p/enhFEGqg" target="_blank" rel="noopener noreferrer">
+          <span class="cert-icon">AZ</span><span class="credential-body"><strong>Azure Administrator Associate</strong><small>Microsoft Certified · AZ-104</small></span><span class="arrow" aria-hidden="true">↗</span>
+        </a>
+        <a class="credential reveal" href="https://lnkd.in/p/epqbUWd9" target="_blank" rel="noopener noreferrer">
+          <span class="cert-icon">AZ</span><span class="credential-body"><strong>Azure Fundamentals</strong><small>Microsoft Certified · AZ-900</small></span><span class="arrow" aria-hidden="true">↗</span>
+        </a>
+        <div class="credential reveal"><span class="cert-icon">AZ</span><span class="credential-body"><strong>Azure Data Fundamentals</strong><small>Microsoft Certified · DP-900</small></span><span class="arrow" aria-hidden="true">✓</span></div>
+      </div>
+      <p class="education reveal">Education: M.Sc. Computer Science, Lakehead University · B.E. Information Technology, LDRP Institute of Technology and Research.</p>
+    </section>
+    <section id="contact" class="container contact-section">
+      <div class="contact-box reveal">
+        <p class="section-label">05 / Let's connect</p>
+        <h2>Have a problem worth solving?</h2>
+        <p>I'm open to software engineering conversations, potential opportunities, and thoughtful technical collaborations — especially around backend systems, full-stack products, and applied AI.</p>
+        <div class="hero-actions" style="margin-bottom:0">
+          <a class="button button-primary" href="mailto:shivampande327@gmail.com?subject=Hello%20Shivam">Send an email <span aria-hidden="true">↗</span></a>
+          <a class="button button-secondary" href="https://github.com/ShivamP63" target="_blank" rel="noopener noreferrer">Explore GitHub <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer><div class="container footer-inner"><span>© <span id="year">2026</span> Shivam Pande. Built with intention.</span><div class="footer-links"><a href="mailto:shivampande327@gmail.com">Email</a><a href="https://www.linkedin.com/in/spande443/" target="_blank" rel="noopener noreferrer">LinkedIn</a><a href="https://github.com/ShivamP63" target="_blank" rel="noopener noreferrer">GitHub</a><a href="#top">Back to top ↑</a></div></div></footer>
+  <script>
+    (function(){
+      var menuButton=document.getElementById('menuButton');
+      var navLinks=document.getElementById('navLinks');
+      menuButton.addEventListener('click',function(){
+        var open=navLinks.classList.toggle('open');
+        menuButton.setAttribute('aria-expanded',String(open));
+        menuButton.textContent=open?'×':'☰';
+      });
+      navLinks.querySelectorAll('a').forEach(function(link){link.addEventListener('click',function(){navLinks.classList.remove('open');menuButton.setAttribute('aria-expanded','false');menuButton.textContent='☰'})});
+      document.getElementById('year').textContent=String(new Date().getFullYear());
+      if(!window.matchMedia('(prefers-reduced-motion: reduce)').matches && 'IntersectionObserver' in window){
+        var observer=new IntersectionObserver(function(entries){entries.forEach(function(entry){if(entry.isIntersecting){entry.target.classList.add('visible');observer.unobserve(entry.target)}})},{threshold:.08});
+        document.querySelectorAll('.reveal').forEach(function(el){observer.observe(el)});
+      }else{document.querySelectorAll('.reveal').forEach(function(el){el.classList.add('visible')})}
+    })();
+  </script>
+</body>
+</html>
