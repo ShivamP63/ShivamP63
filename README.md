@@ -1,112 +1,54 @@
+# Hi, I'm Shivam 👋
 
-# 🚀 Portfolio
+### Full-Stack Software Engineer | Python, React & TypeScript | Backend APIs • AI Applications • Cloud
 
-| Domain | Featured Project |
-|---------|------------------|
-| ☁️ Cloud Infrastructure | Azure Small Business Foundation |
-| 🌍 Infrastructure as Code | Terraform Azure Infrastructure |
-| 📦 Infrastructure as Code | Azure Bicep Infrastructure |
-| ⚙️ DevOps | GitHub Actions CI/CD |
-| 📈 Cloud Operations | Azure Monitoring & Incident Response |
-| 🔐 Identity & Security | Azure RBAC & Managed Identities |
-| 📊 Data Engineering | Azure Retail Data Pipeline |
-| 🤖 AI Applications | Azure AI Foundry Ticket Intelligence |
-| 🖥️ Enterprise IT Operations | Enterprise IT Operations Simulation |
+I'm a software engineer with **nearly two years of professional experience** developing web applications and REST APIs. At **Bacancy Technology**, I worked on healthcare software, including React/Redux interfaces, Python/Flask APIs, patient intake, scheduling workflows, and staff dashboards. I enjoy building reliable, maintainable applications—from user-facing experiences and backend services to automated tests and deployment workflows.
 
----
+I'm currently developing two full-stack portfolio applications in parallel, with a focus on practical functionality, clean APIs, testing, and incremental releases.
 
-# 🎓 Microsoft Certifications
+## 🚧 What I'm building now
 
-- ✅ Microsoft Certified: Azure Administrator Associate (AZ-104)
-- ✅ Microsoft Certified: Azure Fundamentals (AZ-900)
-- ✅ Microsoft Certified: Azure Data Fundamentals (DP-900)
+These are **active, in-progress projects**, not finished products. Sprint 1 source code is present in both repositories; local end-to-end PostgreSQL verification is still pending.
 
----
+| Project | Technologies | Current scope and direction |
+|---|---|---|
+| **[Enterprise Workflow Management Platform](https://github.com/ShivamP63/enterprise-workflow-platform)** | Java 21, Spring Boot, React, TypeScript, PostgreSQL, Flyway | Team project/task management. Sprint 1 source covers the application foundation; authentication, collaboration, automated quality gates, and deployment are subsequent milestones. |
+| **[Intelligent Document Processing & AI Search Platform](https://github.com/ShivamP63/intelligent-document-ai-platform)** | Python, FastAPI, React, TypeScript, PostgreSQL, SQLAlchemy | Document upload and text extraction foundation. ML-based classification, semantic search, and citation-backed RAG Q&A are planned for later milestones. |
 
-# 🛠️ Technical Skills
+## 💼 Selected completed projects
 
-### ☁️ Cloud & Infrastructure
-- Microsoft Azure
-- Azure Resource Manager (ARM)
-- Azure Virtual Machines
-- Azure Virtual Network
-- Azure Storage
-- Azure Monitor
-- Azure Log Analytics
+### [AI Ticket Intelligence API](https://github.com/ShivamP63/azure-ai-foundry-ticket-intelligence)
+Built a **Python/FastAPI** service integrating **Azure OpenAI** for structured ticket classification and **Cosmos DB** for persistence. Includes Pydantic validation, defensive error handling, API documentation, and mocked pytest tests. The Azure environment was decommissioned after testing.
 
-### 🌍 Infrastructure as Code
-- Terraform
-- Azure Bicep
-- ARM Templates
+### [Containerized Python Service & CI/CD](https://github.com/ShivamP63/azure-github-actions-cicd)
+Developed a tested **Flask REST API** and a **GitHub Actions** workflow for automated testing, Docker image builds, Azure Container Apps deployment, and smoke tests, using OIDC-based cloud authentication.
 
-### ⚙️ DevOps & Containers
-- Git
-- GitHub Actions
-- Azure DevOps
-- Docker
-- Azure Container Registry
-- Azure Container Apps
+### [Enterprise Incident Management API](https://github.com/ShivamP63/enterprise-it-operations-simulation)
+Built a **C# / ASP.NET Core Minimal API** with incident-management endpoints, Swagger/OpenAPI documentation, and Postman validation within a documented enterprise support simulation.
 
-### 💻 Backend Development
-- C#
-- ASP.NET Core Minimal APIs
-- REST APIs
-- Swagger / OpenAPI
-- JSON
+## 🛠️ Technical toolkit
 
-### 📊 Data Engineering & Analytics
-- Azure Data Factory
-- Azure SQL Database
-- Azure Cosmos DB
-- Azure Blob Storage
-- SQL
-- Python
-- Power BI
-- Microsoft Excel
+| Area | Technologies |
+|---|---|
+| **Backend & APIs** | Python, Flask, FastAPI, REST APIs, Pydantic, Java, Spring Boot, C# / ASP.NET Core |
+| **Frontend** | React, Redux, TypeScript, JavaScript, HTML5, CSS3 |
+| **Data & authentication** | SQL, PostgreSQL, MySQL, MongoDB, Azure Cosmos DB, JWT, OAuth 2.0, RBAC |
+| **Testing & delivery** | pytest, Jest, React Testing Library, Postman, Git, GitHub Actions, Docker, CI/CD |
+| **Cloud & developer tools** | Azure, AWS fundamentals, Linux, GitHub Copilot, Cursor, AI-assisted development |
 
-### 🤖 AI & Application Development
-- Azure AI Foundry
-- Azure OpenAI
-- FastAPI
-- Prompt Engineering
+## 🎓 Certifications
 
-### 🖥️ Enterprise IT Operations
-- ServiceNow
-- Jira
-- Confluence
-- Postman
-- PowerShell
+- **[Microsoft Certified: Azure Administrator Associate (AZ-104)](https://lnkd.in/p/enhFEGqg)**
+- **[Microsoft Certified: Azure Fundamentals (AZ-900)](https://lnkd.in/p/epqbUWd9)**
+- **Microsoft Certified: Azure Data Fundamentals (DP-900)**
 
----
+## 🎓 Education
 
-# 📂 Featured Projects
+- **M.Sc. Computer Science**, Lakehead University, Canada
+- **B.E. Information Technology**, LDRP Institute of Technology and Research, India
 
-### ☁️ Azure Small Business Foundation
-Designed a secure Azure landing zone with networking, virtual machines, storage, Key Vault, backup, monitoring, governance, and cost management.
+## 🤝 Let's connect
 
-### 🌍 Terraform Azure Infrastructure
-Provisioned reusable Azure infrastructure with Terraform modules, monitoring, managed identities, and Infrastructure as Code best practices.
+I'm always happy to discuss software engineering, backend APIs, full-stack applications, AI integration, and interesting technical projects.
 
-### 📦 Azure Bicep Infrastructure
-Built reusable Azure infrastructure using modular Bicep templates and parameterized deployments.
-
-### ⚙️ GitHub Actions CI/CD
-Implemented automated CI/CD pipelines using GitHub Actions, Docker, Azure Container Registry, and Azure Container Apps.
-
-### 📈 Azure Monitoring & Incident Response
-Implemented Azure Monitor, Log Analytics, KQL, alerts, action groups, dashboards, and operational runbooks.
-
-### 🔐 Azure RBAC & Managed Identities
-Implemented least-privilege access using Azure RBAC, Managed Identities, Azure Key Vault, and Infrastructure as Code.
-
-### 📊 Azure Retail Data Pipeline
-Built an end-to-end retail analytics solution using Azure Data Factory, Azure SQL Database, Python, SQL, Power BI, and Microsoft Excel.
-
-### 🤖 Azure AI Foundry Ticket Intelligence
-Developed an AI-powered ticket classification application using Azure AI Foundry, Azure OpenAI, FastAPI, Azure Cosmos DB, and REST APIs.
-
-### 🖥️ Enterprise IT Operations Simulation
-Simulated enterprise IT support workflows using ServiceNow, Jira, Confluence, PowerShell, Postman, and a C# ASP.NET Core Minimal API with REST endpoints, Swagger/OpenAPI documentation, and incident management workflows.
-
----
-
+[LinkedIn](https://www.linkedin.com/in/spande443/) · [Email](mailto:shivampande327@gmail.com) · [Repositories](https://github.com/ShivamP63?tab=repositories)
