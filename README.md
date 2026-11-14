@@ -61,4 +61,6 @@ An in-progress secondary full-stack track built with Java 21, Spring Boot, React
 
 ## Connect
 
+Interested in discussing Python, backend APIs, full-stack systems, or career paths? [Book a coffee chat with me](https://calendly.com/shivampande327/30min).
+
 [LinkedIn](https://www.linkedin.com/in/spande443/) · [Portfolio](https://shivam-pande-portfolio.vercel.app) · [Email](mailto:shivampande327@gmail.com)
