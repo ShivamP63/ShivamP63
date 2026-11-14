@@ -1,54 +1,64 @@
-# Hi, I'm Shivam 👋
+# Shivam Pande
 
-### Full-Stack Software Engineer | Python, React & TypeScript | Backend APIs • AI Applications • Cloud
+### Python Full-Stack Software Engineer | FastAPI · Flask · React · Cloud
 
-I'm a software engineer with **nearly two years of professional experience** developing web applications and REST APIs. At **Bacancy Technology**, I worked on healthcare software, including React/Redux interfaces, Python/Flask APIs, patient intake, scheduling workflows, and staff dashboards. I enjoy building reliable, maintainable applications—from user-facing experiences and backend services to automated tests and deployment workflows.
+I am a Python-focused full-stack software engineer with around two years of professional experience building REST APIs, database-driven workflows, responsive React applications, and automated delivery pipelines.
 
-I'm currently developing two full-stack portfolio applications in parallel, with a focus on practical functionality, clean APIs, testing, and incremental releases.
+My strongest work is at the intersection of Python backend engineering, practical frontend development, data persistence, testing, and cloud-ready application delivery. At Bacancy Technology, I worked on React and TypeScript interfaces, Python APIs, relational data access, debugging, testing, and Agile feature delivery.
 
-## 🚧 What I'm building now
+## Featured Python projects
 
-These are **active, in-progress projects**, not finished products. Sprint 1 source code is present in both repositories; local end-to-end PostgreSQL verification is still pending.
+### [Intelligent Document AI Platform](https://github.com/ShivamP63/intelligent-document-ai-platform) · [Live Demo](https://intelligent-document-ai-demo.vercel.app/)
 
-| Project | Technologies | Current scope and direction |
-|---|---|---|
-| **[Intelligent Document Processing & AI Search Platform](https://github.com/ShivamP63/intelligent-document-ai-platform)** | Python, FastAPI, React, TypeScript, PostgreSQL, SQLAlchemy | Document upload and text extraction foundation. ML-based classification, semantic search, and citation-backed RAG Q&A are planned for later milestones. |
-| **[Enterprise Workflow Management Platform](https://github.com/ShivamP63/enterprise-workflow-platform)** | Java 21, Spring Boot, React, TypeScript, PostgreSQL, Flyway | Team project/task management. Sprint 1 source covers the application foundation; authentication, collaboration, automated quality gates, and deployment are subsequent milestones. |
+A Python-first full-stack document platform with a live browser demo for PDF upload, text extraction, and document organization. The repository combines React and TypeScript with Python, FastAPI, pypdf, PostgreSQL, SQLAlchemy, Alembic, Docker, and automated browser-to-database validation.
 
-## 💼 Selected completed projects
+### [Containerized Python Service and CI/CD](https://github.com/ShivamP63/azure-github-actions-cicd)
+
+A Flask REST API packaged as a secure, non-root Docker image and delivered through GitHub Actions. The project demonstrates pytest validation, Azure Container Apps deployment, Azure Container Registry, managed identity image pulls, OIDC authentication, health probes, smoke tests, and deployment summaries.
 
 ### [AI Ticket Intelligence API](https://github.com/ShivamP63/azure-ai-foundry-ticket-intelligence)
-Built a **Python/FastAPI** service integrating **Azure OpenAI** for structured ticket classification and **Cosmos DB** for persistence. Includes Pydantic validation, defensive error handling, API documentation, and mocked pytest tests. The Azure environment was decommissioned after testing.
 
-### [Containerized Python Service & CI/CD](https://github.com/ShivamP63/azure-github-actions-cicd)
-Developed a tested **Flask REST API** and a **GitHub Actions** workflow for automated testing, Docker image builds, Azure Container Apps deployment, and smoke tests, using OIDC-based cloud authentication.
+A Python and FastAPI service that classifies IT support tickets with Microsoft Foundry and Azure OpenAI, validates structured responses with Pydantic, and stores ticket records in Azure Cosmos DB. The project also includes API documentation, defensive error handling, mocked integration tests, and operational documentation.
 
-### [Enterprise Incident Management API](https://github.com/ShivamP63/enterprise-it-operations-simulation)
-Built a **C# / ASP.NET Core Minimal API** with incident-management endpoints, Swagger/OpenAPI documentation, and Postman validation within a documented enterprise support simulation.
+## Java project
 
-## 🛠️ Technical toolkit
+### [Enterprise Workflow Management Platform](https://github.com/ShivamP63/enterprise-workflow-platform) · [Live Demo](https://enterprise-workflow-demo.vercel.app/)
+
+An in-progress secondary full-stack track built with Java 21, Spring Boot, React, TypeScript, PostgreSQL, Flyway, and Docker Compose. It focuses on project and task workflows, REST API design, relational persistence, and browser-to-database testing.
+
+## Technical focus
 
 | Area | Technologies |
 |---|---|
-| **Backend & APIs** | Python, Flask, FastAPI, REST APIs, Pydantic, Java, Spring Boot, C# / ASP.NET Core |
-| **Frontend** | React, Redux, TypeScript, JavaScript, HTML5, CSS3 |
-| **Data & authentication** | SQL, PostgreSQL, MySQL, MongoDB, Azure Cosmos DB, JWT, OAuth 2.0, RBAC |
-| **Testing & delivery** | pytest, Jest, React Testing Library, Postman, Git, GitHub Actions, Docker, CI/CD |
-| **Cloud & developer tools** | Azure, AWS fundamentals, Linux, GitHub Copilot, Cursor, AI-assisted development |
+| Backend and APIs | Python, FastAPI, Flask, Pydantic, SQLAlchemy, REST APIs |
+| Frontend | React, TypeScript, JavaScript, HTML, CSS |
+| Databases | PostgreSQL, MySQL, MongoDB, Azure Cosmos DB |
+| Security | JWT, OAuth 2.0, RBAC, OIDC |
+| Cloud and delivery | AWS, Azure, Docker, GitHub Actions, CI/CD, Linux |
+| Testing and AI | pytest, Postman, Azure OpenAI, Databricks, prompt engineering |
+| Engineering practices | SDLC, Agile/Scrum, debugging, documentation, stakeholder communication |
 
-## 🎓 Certifications
+## Professional experience
 
-- **[Microsoft Certified: Azure Administrator Associate (AZ-104)](https://lnkd.in/p/enhFEGqg)**
-- **[Microsoft Certified: Azure Fundamentals (AZ-900)](https://lnkd.in/p/epqbUWd9)**
-- **Microsoft Certified: Azure Data Fundamentals (DP-900)**
+### Bacancy Technology — Software Engineer
 
-## 🎓 Education
+- Built and maintained React and TypeScript interfaces and asynchronous data workflows, reducing page-load times from approximately 60 seconds to 5–8 seconds.
+- Developed Python REST APIs with FastAPI and Pydantic, including JWT authentication, validation, and standardized error handling.
+- Designed PostgreSQL data access with SQLAlchemy, relational models, CRUD operations, and paginated queries across multiple workflows.
+- Automated testing and delivery with GitHub Actions, Docker, and cloud deployment workflows.
+- Worked with developers, QA engineers, and client stakeholders to deliver Agile releases and resolve integration issues.
 
-- **M.Sc. Computer Science**, Lakehead University, Canada
-- **B.E. Information Technology**, LDRP Institute of Technology and Research, India
+## Certifications
 
-## 🤝 Let's connect
+- [Microsoft Certified: Azure Administrator Associate (AZ-104)](https://lnkd.in/p/enhFEGqg)
+- [Microsoft Certified: Azure Fundamentals (AZ-900)](https://lnkd.in/p/epqbUWd9)
+- [Databricks Generative AI Fundamentals Accreditation](https://lnkd.in/p/gkAYn9DU)
 
-I'm always happy to discuss software engineering, backend APIs, full-stack applications, AI integration, and interesting technical projects.
+## Education
 
-[LinkedIn](https://www.linkedin.com/in/spande443/) · [Email](mailto:shivampande327@gmail.com) · [Repositories](https://github.com/ShivamP63?tab=repositories)
+- M.Sc. Computer Science — Lakehead University, Canada
+- B.E. Information Technology — LDRP Institute of Technology and Research, India
+
+## Connect
+
+[LinkedIn](https://www.linkedin.com/in/spande443/) · [Portfolio](https://shivam-pande-portfolio.vercel.app) · [Email](mailto:shivampande327@gmail.com)
